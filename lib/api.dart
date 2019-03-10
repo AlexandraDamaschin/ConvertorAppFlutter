@@ -10,7 +10,6 @@ const apiCategory = {
 };
 
 /// The REST API retrieves unit conversions for [Categories] that change.
-
 /// For example, the currency exchange rate, stock prices, the height of the
 /// tides change often.
 /// We have set up an API that retrieves a list of currencies and their current

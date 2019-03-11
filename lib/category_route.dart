@@ -97,6 +97,7 @@ class _CategoryRouteState extends State<CategoryRoute> {
     final json = DefaultAssetBundle
         .of(context)
         .loadString('assets/data/regular_units.json');
+        //.loadString('assets/data/goofy_units.json');
     final data = JsonDecoder().convert(await json);
     if (data is! Map) {
       throw ('Data retrieved from API is not a Map');
